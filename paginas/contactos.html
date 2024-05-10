@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <a href="https://wa.me/3046797829?text=Que%20te%20gustaría%20comprar" class="whatsapp" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
+</head>
+
+<body>
+
+    <header>
+        <div class="header__superior">
+            <div class="logo">
+                <img id="comirap" src="../img/comidas rapidas.jpg.webp" alt="hamburguesas">
+                <h1 id="nombre1">Comidas Rapidas...</h1>
+            </div>
+        </div>
+
+        
+        <div class="container__menu">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Inicio</a></li>
+                        <li> <a href="#">Menu</a>
+                            <ul>
+                                <li><a href="hambuerguesas.html">Hambuergas</a></li>
+                                <li><a href="perrocaliente.html">Perros calientes</a></li>
+                                <li><a href="salchipapas.html">Salchipapas</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="contactos.html">Contactenos</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1 id="contacto"> Contactanos...</h1>
+    <h2 id="contacto">Tus opiniones son importantes para nosotros...</h2>
+<br><br>
+ 
+
+<div class="mapa">
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.870898434291!2d-74.0944046241868!3d4.6171101423747976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f996f79f4e283%3A0x5856b6b66ab6bd34!2sCENIGRAF!5e0!3m2!1ses!2sco!4v1714632557805!5m2!1ses!2sco"
+    width="900" height="500" style="border:15;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <br><br>
+    
+    <div class="cont">
+       
+        <form  action="" method="get">
+    
+            <div class="input-group">
+    
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+    
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono" required>
+    
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+    
+                <label for="ciudad">Ciudad</label>
+                <select name="ciudad" id="ciudad" required>
+                    <option value style="display: none">Seleccione la ciudad</option> 
+                    <option value="">Bogota</option>
+                    <option value="">Medellin</option>
+                    <option value="">Cali</option>
+                    <option value="">Choco</option>
+                </select>
+    
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+    
+                <div class="form-txt">
+                    <a href="#">Politica de Privacidad</a><input type="checkbox" name="check" id="cuadro">
+                    <br>
+                    <a href="#">Terminos y condiciones</a><input type="checkbox" name="check" id="cuadro">
+                </div>
+                
+                <input class="botoom" type="submit" input type="button" onclick="alert('FORMULARIO REGISTRADO')"
+                    value="Aceptar">
+                <input class="botoom" type="submit" input type="button" onclick="alert(' REGISTRADO CANCELADO')"
+                    value="Cancelar">
+            </div>
+     
+   
+        </form>
+    </div>
+<br><br> 
+
+
+
+
+
+    <footer class="redes">
+
+        <p>Programa para recoger o pide tu domicili en linea. No te quedes sun disfrutar de nuestras delicias.</p>
+
+        <a href="https://www.facebook.com/"><ion-icon id="iconos" name="logo-facebook"></ion-icon>Facebook</a>
+        <a href="https://www.instagram.com/"><ion-icon id="iconos" name="logo-instagram"></ion-icon>Instagram</a>
+        <a href="https://twitter.com/"><ion-icon id="iconos" name="logo-twitter"></ion-icon>Twitter</a>
+        <a href="https://www.tiktok.com.es/"><ion-icon id="iconos" name="logo-tiktok"></ion-icon>Tiktok</a>
+
+        <p>Derechos Reservados</p>
+        </section>
+
+    </footer>
+
+
+</body>
+
+</html>
